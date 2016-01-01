@@ -13,11 +13,11 @@ do
 	. $INSTALL_FILE
 done
 
-echo 'Syncing dot files...'
+echo "$(tput setaf 2)Syncing dot files...$(tput sgr 0)"
 rsync -avh --no-perms $DOT_FILES ~
 
 if [ -f $PRIVATE_INSTALL_PATH ]; then
     . $PRIVATE_INSTALL_PATH
 fi
 
-echo 'All done!'
+echo "$(tput setaf 2)All done!$(tput sgr 0)"

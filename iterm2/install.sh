@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 'Installing iTerm settings...'
+echo "$(tput setaf 2)Installing iTerm settings...$(tput sgr 0)"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ITERM_SETTINGS_PATH="$DIR/com.googlecode.iterm2.plist"

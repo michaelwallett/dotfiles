@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 'Installing bash...'
+echo "$(tput setaf 2)Installing bash...$(tput sgr 0)"
 
 BASH_PATH='/usr/local/bin/bash'
 
