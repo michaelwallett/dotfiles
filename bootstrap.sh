@@ -9,11 +9,11 @@ DOT_FILES=$(find -H "$DIR" -maxdepth 2 -name '.*' -not -path '.' -not -path '*.g
 . $HOMEBREW_INSTALL_PATH
 . $INSTALL_FILES
 
+echo 'Syncing dot files...'
+rsync -avh --no-perms $DOT_FILES ~
+
 if [ -f $PRIVATE_INSTALL_PATH ]; then
     . $PRIVATE_INSTALL_PATH
 fi
-
-echo 'Syncing dot files...'
-rsync -avh --no-perms $DOT_FILES ~
 
 echo 'All done!'
