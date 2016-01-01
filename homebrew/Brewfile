@@ -1,0 +1,21 @@
+cask_args appdir: '/Applications'
+
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+
+brew 'bash'
+brew 'tree'
+brew 'git'
+
+cask 'iterm2'
+cask 'virtualbox'
+cask 'vmware-fusion'
+cask 'vagrant'
+cask 'dockertoolbox'
+cask 'atom'
+cask 'firefox'
+cask 'google-chrome'
+cask 'gas-mask'
+cask 'lastpass'
+cask 'dropbox'
+cask 'spotify'
