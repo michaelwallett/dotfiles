@@ -7,7 +7,11 @@ INSTALL_FILES=$(find -H "$DIR" -maxdepth 2 -name 'install.sh' -not -path "$HOMEB
 DOT_FILES=$(find -H "$DIR" -maxdepth 2 -name '.*' -not -path '.' -not -path '*.git')
 
 . $HOMEBREW_INSTALL_PATH
-. $INSTALL_FILES
+
+for INSTALL_FILE in $INSTALL_FILES
+do
+	. $INSTALL_FILE
+done
 
 echo 'Syncing dot files...'
 rsync -avh --no-perms $DOT_FILES ~
