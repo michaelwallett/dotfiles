@@ -8,5 +8,16 @@
   excludesfile = ~/.gitignore
   editor = vim
 
+[merge]
+  tool = kdiff3
+
+[mergetool "kdiff3"]
+  cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+  trustExitCode = false
+  path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+
+[mergetool]
+    keepBackup = false
+
 [credential]
   helper = osxkeychain
