@@ -7,4 +7,5 @@ apm install sublime-style-column-selection
 apm install emmet
 apm install javascript-snippets
 apm install atom-jade
+apm install language-pug
 apm install react
