@@ -9,3 +9,4 @@ apm install javascript-snippets
 apm install atom-jade
 apm install language-pug
 apm install react
+apm install language-docker
