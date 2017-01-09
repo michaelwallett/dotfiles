@@ -12,3 +12,4 @@ apm install react
 apm install language-docker
 apm install terminal-plus
 apm install editorconfig
+apm install linter-eslint
