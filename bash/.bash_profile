@@ -1,4 +1,5 @@
 export PATH="/usr/local/bin:$PATH"
+PATH=$PATH:/usr/local/sbin
 export EDITOR=vim # Editor for MongoDB
 
 export NVM_DIR="$HOME/.nvm"
