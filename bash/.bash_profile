@@ -1,5 +1,9 @@
 export PATH="/usr/local/bin:$PATH"
-PATH=$PATH:/usr/local/sbin
+export PATH="/usr/local/sbin:$PATH"
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 export EDITOR=vim
 
 export NVM_DIR="$HOME/.nvm"
