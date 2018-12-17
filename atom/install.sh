@@ -13,3 +13,4 @@ apm install language-docker
 apm install terminal-plus
 apm install editorconfig
 apm install linter-eslint
+apm install language-jenkinsfile
