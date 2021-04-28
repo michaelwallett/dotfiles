@@ -4,6 +4,8 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+
 export EDITOR=vim
 
 export NVM_DIR="$HOME/.nvm"
