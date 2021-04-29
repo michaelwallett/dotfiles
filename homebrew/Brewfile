@@ -27,6 +27,7 @@ cask 'google-backup-and-sync'
 cask 'spotify'
 cask 'java'
 cask 'slack'
+cask 'android-studio'
 
 brew 'scala'
 brew 'sbt@1'
