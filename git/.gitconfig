@@ -17,7 +17,7 @@
   path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
 
 [mergetool]
-    keepBackup = false
+  keepBackup = false
 
 [credential]
   helper = osxkeychain
