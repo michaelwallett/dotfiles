@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/cask'
 tap 'homebrew/bundle'
+tap 'microsoft/git'
 
 brew 'tree'
 brew 'jq'
@@ -11,6 +12,7 @@ brew 'jenv'
 brew 'python'
 brew 'pyenv'
 
+cask 'git-credential-manager-core'
 cask 'kdiff3'
 cask 'iterm2'
 cask 'visual-studio-code'
