@@ -12,6 +12,7 @@ brew 'jenv'
 brew 'python'
 brew 'pyenv'
 brew 'yarn'
+brew 'gh'
 
 cask 'git-credential-manager-core'
 cask 'kdiff3'
