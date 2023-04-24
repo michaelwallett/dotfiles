@@ -11,6 +11,7 @@ brew 'zsh-completions'
 brew 'jenv'
 brew 'python'
 brew 'pyenv'
+brew 'yarn'
 
 cask 'git-credential-manager-core'
 cask 'kdiff3'
