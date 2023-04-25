@@ -1,3 +1,7 @@
+#!/bin/sh
+
+echo "$(tput setaf 2)Installing vscode extensions...$(tput sgr 0)"
+
 code --install-extension ms-python.python
 code --install-extension GraphQL.vscode-graphql-syntax
 code --install-extension dsznajder.es7-react-js-snippets
