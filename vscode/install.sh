@@ -14,3 +14,4 @@ code --install-extension kamikillerto.vscode-colorize
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension rangav.vscode-thunder-client
 code --install-extension bradlc.vscode-tailwindcss
+code --install-extension ritwickdey.LiveServer
