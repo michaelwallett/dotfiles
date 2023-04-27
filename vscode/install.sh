@@ -13,3 +13,4 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension kamikillerto.vscode-colorize
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension rangav.vscode-thunder-client
+code --install-extension bradlc.vscode-tailwindcss
