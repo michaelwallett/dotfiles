@@ -15,3 +15,5 @@ code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension rangav.vscode-thunder-client
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension ritwickdey.LiveServer
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension eamodio.gitlens
