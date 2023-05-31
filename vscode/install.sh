@@ -18,3 +18,4 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension eamodio.gitlens
 code --install-extension MS-vsliveshare.vsliveshare
+code --install-extension Prisma.prisma
