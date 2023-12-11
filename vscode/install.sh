@@ -19,3 +19,4 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension eamodio.gitlens
 code --install-extension MS-vsliveshare.vsliveshare
 code --install-extension Prisma.prisma
+code --install-extension biomejs.biome
