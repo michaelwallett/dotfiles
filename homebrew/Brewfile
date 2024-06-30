@@ -11,6 +11,7 @@ brew 'jenv'
 brew 'python'
 brew 'pyenv'
 brew 'yarn'
+brew 'pnpm'
 brew 'gh'
 
 cask 'git-credential-manager-core'
