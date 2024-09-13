@@ -6,6 +6,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 export PATH="$HOME/development/flutter/bin:$PATH"
 
+# gpg
+export GPG_TTY=$(tty)
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
