@@ -1,6 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'microsoft/git'
 
@@ -23,8 +22,5 @@ cask 'docker'
 cask 'postman'
 cask 'firefox'
 cask 'google-chrome'
-cask 'dropbox'
-cask 'google-drive'
 cask 'notion'
-cask 'whatsapp'
 cask 'proxyman'

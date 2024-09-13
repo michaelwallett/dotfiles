@@ -1,3 +1,3 @@
 # dotfiles
 
-`. bootstrap.sh`
+`sh bootstrap.sh`
